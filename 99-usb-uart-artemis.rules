@@ -1,0 +1,2 @@
+# Use 'udevadm info -a -n /dev/ttyUSBX' to identify the device.
+SUBSYSTEM=="tty", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60", ATTRS{serial}=="da1174ce93fbea119fc9f6375fbcde76", SYMLINK+="ttyArtemis"
